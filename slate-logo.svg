@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <!-- Background: transparent -->
+
+  <!-- Icon: rising trend line with AI node dots -->
+  <g transform="translate(20, 20)">
+    <!-- Trend line -->
+    <polyline
+      points="0,60 20,45 40,30 60,15"
+      fill="none"
+      stroke="#0055FF"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- Data nodes -->
+    <circle cx="0"  cy="60" r="5" fill="#0055FF"/>
+    <circle cx="20" cy="45" r="5" fill="#0055FF"/>
+    <circle cx="40" cy="30" r="5" fill="#0055FF"/>
+    <circle cx="60" cy="15" r="6" fill="#0055FF"/>
+    <!-- Leaf accent on top node -->
+    <path d="M60,15 Q70,5 75,15 Q65,20 60,15Z" fill="#0055FF" opacity="0.6"/>
+  </g>
+
+  <!-- Wordmark: "slate" lowercase, bold -->
+  <text
+    x="110"
+    y="82"
+    font-family="'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="68"
+    fill="#0055FF"
+    letter-spacing="-2"
+  >slate</text>
+
+  <!-- Descriptor -->
+  <text
+    x="112"
+    y="105"
+    font-family="'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="400"
+    font-size="13"
+    fill="#0055FF"
+    letter-spacing="3"
+    opacity="0.7"
+  >AI-POWERED HOSPITALITY</text>
+</svg>
